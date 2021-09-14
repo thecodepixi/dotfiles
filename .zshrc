@@ -103,7 +103,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 alias githist="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 alias shpfy="/Users/eharber/src/github.com/Shopify/shopify-app-cli/bin/shopify"
 alias ngrok="~/ngrok" 
-function g()="git $"
+alias g="git"
 alias d="dev"
 alias pull="git pull"
 

@@ -40,3 +40,5 @@
 	aa = add .
 	a = add
 
+[init]
+	defaultBranch = main
