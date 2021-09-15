@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/eharber/.oh-my-zsh"
+export ZSH="/Users/eharber/.oh-my-zsh" || "~/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -96,13 +96,13 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="cd ~/.oh-my-zsh" 
+alias ohmyzsh="cd ~/.oh-my-zsh"
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
 
 alias githist="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 alias shpfy="/Users/eharber/src/github.com/Shopify/shopify-app-cli/bin/shopify"
-alias ngrok="~/ngrok" 
+alias ngrok="~/ngrok"
 alias g="git"
 alias d="dev"
 alias pull="git pull"
