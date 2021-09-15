@@ -4,8 +4,9 @@
 # Path to your oh-my-zsh installation.
 if [[ -a "/Users/eharber/.oh-my-zsh" ]]; then
   export ZSH="/Users/eharber/.oh-my-zsh"
-else 
-  export ZSH="~/.oh-my-zsh"
+else
+  # we must be in spin env if "Users/eharber" doesn't exist... 
+  export ZSH="/home/spin/.oh-my-zsh"
 fi
 
 # Set name of the theme to load --- if set to "random", it will
